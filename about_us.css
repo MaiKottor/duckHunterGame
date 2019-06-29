@@ -1,0 +1,132 @@
+body {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    color: #3c415e;
+    font-family: Poppins,sans-serif;
+}
+
+.container {
+    background-color:#efebf9;
+}
+/* start nav bar section styling */
+.nav_bar {
+/*    background-color: #51af17;*/
+    background-color: rgb(50,131,35);
+    overflow: hidden;
+    padding: 15px 5px 0 px;
+    line-height: 1.2;
+    font-size: 18px;
+    width: 100%;
+    height: 75px;
+}
+
+    .nav_bar a {
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+
+
+.nav_bar li {
+    float: right;
+    list-style-type: none;
+    padding: 0px 20px;
+}
+
+.logoref {
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #ceffd8;
+    font-family: Poppins,sans-serif;
+}
+    .logoref:hover {
+        background-color: #ceffd8;
+        color: #51af17;
+        font-size: 26px;
+    }
+
+span {
+    font-size: 20px;
+    font-weight:700;
+    text-decoration: none;
+    color: #ceffd8;
+    font-family: Poppins,sans-serif;
+}
+
+#piclogo {
+    width: 60px;
+    height: 60px;
+}
+
+.nav_bar #logo {
+    float: left;
+}
+
+
+/* start of header styling */
+h1{
+    text-align: center;
+    font-size: 20pt;
+    font-weight: bolder;
+    text-transform: uppercase;
+    
+}
+/* end of header styling */
+/* start of developers section styling */
+.developers_section h1 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 500;
+    font-family: 'Boogaloo', cursive;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color:rgb(50,131,35);
+}
+.developer {
+    max-width: 250px;
+    float: left;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 150px;
+    position: relative;
+}
+    
+.developer_pic{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    margin-bottom:10px;
+   
+}
+.layer {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background-color:rgba(0,0,0,0.4);
+    position:absolute;
+    top:0;
+    right:18px;
+    opacity:0;
+}
+    .layer:hover {
+        opacity:1;
+    }
+.developer_info {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: rgb(50,131,35);
+    padding: 10px;
+    line-height: 1.86em;
+    margin-right: -20px;
+    margin-top: -10px;
+    border-radius: 25px;
+}
+    .developer_info:hover {
+        background-color: #f7fbe0;
+    }
+.clr {
+    clear:both;
+}
+
+/* end of developers section styling */
